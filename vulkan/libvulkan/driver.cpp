@@ -28,6 +28,10 @@
 #include <cutils/properties.h>
 #include <gui/GraphicsEnv.h>
 
+#include <android/dlext.h>
+#include <cutils/properties.h>
+#include <gui/GraphicsEnv.h>
+
 #include "driver.h"
 #include "stubhal.h"
 
