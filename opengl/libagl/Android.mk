@@ -43,5 +43,7 @@ LOCAL_C_INCLUDES += bionic/libc/private
 
 LOCAL_MODULE_RELATIVE_PATH := egl
 LOCAL_MODULE:= libGLES_android
+LOCAL_CLANG := true
+LOCAL_SDCLANG_LTO := true
 
 include $(BUILD_SHARED_LIBRARY)
